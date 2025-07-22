@@ -2,6 +2,7 @@
 
 use self::sealed::KVs;
 use crate::{logger, Level, Log, Metadata, Record};
+pub use log_targets::distributed_log_target;
 use std::fmt::Arguments;
 use std::panic::Location;
 pub use std::{format_args, module_path, stringify};
